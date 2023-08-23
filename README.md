@@ -36,14 +36,14 @@ Análises e comentários sobre o código [AQUI](/.github/docs/index.md).
 - [`Fastify`](https://fastify.dev/)
 - [`Typescript`](https://www.typescriptlang.org/)
 - [`knex`](https://knexjs.org/)
-- [`node-postgres``](https://www.npmjs.com/package/pg)
+- [`node-postgres`](https://www.npmjs.com/package/pg)
 - [`dotenv`](https://www.npmjs.com/package/dotenv)
 - [`zod`](https://www.npmjs.com/package/zod)
 - [`vitest`](https://vitest.dev/)
-- [tsx](https://www.npmjs.com/package/tsx)
-- [tsup](https://www.npmjs.com/package/tsup)
-- [supertest](https://www.npmjs.com/package/supertest)
-- [sqlite3](https://www.npmjs.com/package/sqlite3)
+- [`tsx`](https://www.npmjs.com/package/tsx)
+- [`tsup`](https://www.npmjs.com/package/tsup)
+- [`supertest`](https://www.npmjs.com/package/supertest)
+- [`sqlite3`](https://www.npmjs.com/package/sqlite3)
 
 ## Licença
 
