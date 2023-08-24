@@ -1,5 +1,9 @@
 # Anotações
 
+## Dicas
+
+- `"knex": "node --loader tsx ./node_modules/knex/bin/cli.js"` - é comando recomendado dentro de `package.json` para rodar o knex no windows
+
 ## Conceitos
 
 ### O que é um Query Builder?
@@ -11,6 +15,26 @@ Em vez de lidar diretamente com a sintaxe de SQL, um Query Builder oferece uma i
 Por meio de um Query Builder, os usuários podem selecionar tabelas, colunas, condições, ordenações e outros elementos da consulta usando uma interface gráfica ou código em uma linguagem de programação específica. A ferramenta se encarrega de traduzir essas ações em consultas SQL válidas e executáveis.
 
 No entanto, é importante observar que a eficiência e a otimização das consultas geradas por um Query Builder podem variar. Em algumas situações, consultas manuais escritas por especialistas em SQL podem ser mais eficientes em termos de desempenho, especialmente quando se lida com consultas complexas ou volumes significativos de dados.
+
+### O que são **Migrations**?
+
+Migrations (ou migrações) em bancos de dados são um conceito utilizado no contexto de desenvolvimento de software e gerenciamento de bancos de dados. Elas são um conjunto de instruções ou scripts que descrevem as alterações estruturais que devem ser aplicadas a um banco de dados, permitindo que ele evolua ao longo do tempo de maneira controlada e consistente.
+
+Quando um aplicativo é desenvolvido, é comum que o esquema do banco de dados (tabelas, colunas, índices, etc.) precise ser modificado ao longo do tempo devido a novos requisitos, correções de bugs ou melhorias. As migrations são uma abordagem para gerenciar essas mudanças de maneira organizada, rastreável e colaborativa.
+
+As principais vantagens das migrations são:
+
+1. **Controle de Versão:** As migrations são normalmente versionadas junto com o código-fonte do aplicativo. Isso permite que as alterações no banco de dados sejam rastreáveis e reversíveis, facilitando a colaboração entre desenvolvedores e a manutenção do histórico de alterações.
+
+2. **Consistência:** As migrations garantem que todos os desenvolvedores e ambientes de desenvolvimento tenham a mesma estrutura de banco de dados, evitando problemas de incompatibilidade ou erros de configuração.
+
+3. **Automatização:** Muitas ferramentas e frameworks de desenvolvimento oferecem suporte a migrations, permitindo que as alterações no banco de dados sejam aplicadas automaticamente com um comando simples.
+
+4. **Deploy em Ambientes Diferentes:** As migrations facilitam a implantação em diferentes ambientes (desenvolvimento, teste, produção) porque as alterações no banco de dados podem ser aplicadas de maneira consistente em cada ambiente.
+
+5. **Rollbacks:** Se uma migração causar problemas ou erros, é possível reverter para uma versão anterior do esquema do banco de dados, desde que a migração anterior também tenha sido registrada.
+
+As implementações práticas de migrations variam dependendo da linguagem de programação e do sistema de gerenciamento de banco de dados utilizado. Por exemplo, em frameworks web como Ruby on Rails, Django (Python) e Laravel (PHP), as migrations são uma parte integral do processo de desenvolvimento e são usadas para controlar as mudanças no esquema do banco de dados de maneira eficiente.
 
 ## Liçoes
 
