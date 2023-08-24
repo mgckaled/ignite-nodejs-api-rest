@@ -28,6 +28,19 @@
 
 Desenvolveu-se neste projeto uma API REST com Node.js, desta vez utlizando o Fastify, Knex, Typescript e outras ferramentas de auxílio de desenvolvimento.
 
+### Requisitos Funcionais
+
+- [x] O usuário deve poder criar uma nova transação;
+- [x] O usuário deve poder obter um resumo da sua conta;
+- [x] O usuário deve poder listar todas transações que já ocorreram;
+- [x] O usuário deve poder visualizar uma transação única;
+
+### Requisitos Não Funcionais
+
+- [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito subtrairá;
+- [x] Deve ser possível identificarmos o usuário entre as requisições;
+- [x] O usuário só pode visualizar transações o qual ele criou;
+
 Análises e comentários sobre o código [AQUI](/.github/docs/index.md).
 
 ## Tecnologias
@@ -52,5 +65,5 @@ Distribuído sob a licença _MIT_. Veja [LICENSE](LICENSE) para mais informaçõ
 ---
 
 <h5 align="center">
-  &copy;2023 - <a href="https://github.com/mgckaled/">Marcel Kaled</a>
+  <a href="https://github.com/mgckaled/">Marcel Kaled</a>
 </h5>
