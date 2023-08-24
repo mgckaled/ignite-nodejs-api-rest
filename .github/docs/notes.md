@@ -2,7 +2,8 @@
 
 ## Dicas
 
-- `"knex": "node --loader tsx ./node_modules/knex/bin/cli.js"` - é comando recomendado dentro de `package.json` para rodar o knex no windows
+- `"knex": "node --loader tsx ./node_modules/knex/bin/cli.js"` - é o comando recomendado dentro de `package.json` para rodar o knex no windows
+- informações relevantes para a configuração do `tsconfig` em [`Node-Target-Mapping`](https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping).
 
 ## Conceitos
 
@@ -36,11 +37,43 @@ As principais vantagens das migrations são:
 
 As implementações práticas de migrations variam dependendo da linguagem de programação e do sistema de gerenciamento de banco de dados utilizado. Por exemplo, em frameworks web como Ruby on Rails, Django (Python) e Laravel (PHP), as migrations são uma parte integral do processo de desenvolvimento e são usadas para controlar as mudanças no esquema do banco de dados de maneira eficiente.
 
+### O que é UUID?
+
+UUID significa "Universally Unique Identifier" (Identificador Universalmente Único, em português). É um valor alfanumérico de 128 bits usado para identificar exclusivamente informações em sistemas de computadores. UUIDs são frequentemente representados em forma de string, composta por 32 caracteres hexadecimais separados por hifens em cinco grupos: 8-4-4-4-12, por exemplo: `550e8400-e29b-41d4-a716-446655440000`.
+
+A principal característica dos UUIDs é a sua probabilidade extremamente baixa de colisões, o que significa que é altamente improvável que dois UUIDs gerados em diferentes momentos e por diferentes sistemas sejam iguais. Isso os torna muito úteis para identificação exclusiva de entidades em sistemas distribuídos, bancos de dados, aplicativos web e muitos outros contextos.
+
+Os UUIDs são amplamente utilizados em aplicações para:
+
+1. **Identificação Única:** Quando você precisa criar identificadores únicos para registros em bancos de dados, como IDs de usuário, IDs de pedidos, IDs de produtos, etc.
+
+2. **Sincronização de Dados:** Em sistemas distribuídos ou aplicativos móveis, os UUIDs são usados para evitar conflitos ao sincronizar dados entre dispositivos.
+
+3. **Segurança:** Em alguns casos, UUIDs podem ser usados para criar tokens de acesso temporários ou para identificar sessões de usuário.
+
+4. **Rastreamento de Atividades:** Em registros de logs e sistemas de rastreamento, os UUIDs podem ser usados para acompanhar diferentes eventos e ações.
+
+5. **Identificação em APIs:** Quando você projeta APIs, usar UUIDs como identificadores exclusivos pode evitar expor informações sensíveis ou previsíveis.
+
+Existem várias versões de UUIDs, cada uma com diferentes métodos de geração e focadas em diferentes requisitos. Por exemplo, o UUID v4 é frequentemente usado e é gerado de maneira aleatória, enquanto outras versões podem ser baseadas em timestamps ou outros critérios.
+
+Em linguagens de programação, frameworks e bibliotecas, geralmente existem funções ou módulos específicos para gerar UUIDs de acordo com a versão necessária. Por exemplo, em JavaScript, você pode usar a biblioteca `uuid` para gerar UUIDs facilmente.
+
+Lembre-se de que enquanto os UUIDs são altamente improváveis de colidir, eles ainda são finitos, e a geração excessiva de UUIDs em curtos períodos de tempo pode teoricamente levar a colisões. No entanto, para a maioria dos casos práticos, a probabilidade de colisão é extremamente baixa e, portanto, os UUIDs são considerados seguros para identificação exclusiva.
+
 ## Liçoes
 
-### Quais são as recomendações de configurações do arquivo `tsconfig`?
+### Knex
 
-informações relevantes em [`Node-Target-Mapping`](https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping).
+A `knex.schema` é uma função `getter` , que retorna um objeto com estado contendo a consulta. Portanto, certifique-se de obter uma nova instância `knex.schema` para cada consulta. Esses métodos retornam `promisses`. Ver mais sobre o consultor e seus métodos de criação de banco de dados [AQUI](https://knexjs.org/guide/schema-builder.html).
+
+#### Método `up()`
+
+O método `up()` é usado para aplicar as alterações no esquema do banco de dados. Isso pode incluir a criação de tabelas, a adição de colunas, a definição de índices, entre outras alterações estruturais. Quando você executa uma migração "up", o Knex aplica as alterações definidas no arquivo de migração ao banco de dados.
+
+#### Método `down()`
+
+O método `down()` é usado para reverter as alterações feitas pela migração "up". Ele é responsável por desfazer as mudanças no esquema do banco de dados de forma apropriada. Isso geralmente envolve a exclusão de tabelas, a remoção de colunas ou a reversão de outras alterações.
 
 ### `QueryBuilders` **vs** `ORMs`, quando utilizar?
 
