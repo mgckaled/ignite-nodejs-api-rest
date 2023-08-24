@@ -10,4 +10,6 @@ Arquivo de configurações do banco de dados.
 
 - `Knex.Config` - importação da interface de configurações do Knex
 
+- `connection: {filename: env.DATABASE_URL,}` - variáveis de ambiente validadas pelo `zod`
+
 > Voltar para o [`index`](../../index.md)
