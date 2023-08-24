@@ -2,7 +2,7 @@
 
 ## Função
 
-Criar ou deletar tabela de *transactions*
+Criar ou deletar tabela *transactions*
 
 - uuid - id
 - text - title
@@ -11,6 +11,6 @@ Criar ou deletar tabela de *transactions*
 
 ## Anotações Relevantes
 
-- `knex.fn.now()` - forma universão do knex de criação de timestamp no momento exato
+- `knex.fn.now()` - forma universal do knex de criação de timestamp no momento exato
 
 > Voltar para o [`index`](../../index.md)

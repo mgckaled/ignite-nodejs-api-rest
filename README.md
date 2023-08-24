@@ -35,7 +35,7 @@ Desenvolveu-se neste projeto uma API REST com Node.js, desta vez utlizando o Fas
 - [x] O usuário deve poder listar todas transações que já ocorreram;
 - [x] O usuário deve poder visualizar uma transação única;
 
-### Requisitos Não Funcionais
+### Regras de Negócio
 
 - [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito subtrairá;
 - [x] Deve ser possível identificarmos o usuário entre as requisições;

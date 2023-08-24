@@ -9,6 +9,18 @@
 
 ## Conceitos
 
+### RF - Requisitos Funcionais
+
+Os requisitos funcionais são as especificações das funcionalidades e comportamentos que o sistema de software deve ter. Eles descrevem o que o sistema deve fazer em termos de entrada, processamento e saída. Esses requisitos definem as ações que o sistema deve ser capaz de executar, os cálculos que ele precisa realizar e as interações que deve ter com os usuários ou outros sistemas. Em resumo, os requisitos funcionais detalham as tarefas que o software precisa realizar para atender às necessidades dos usuários ou do negócio.
+
+### RN - Requisitos Não Funcionais
+
+Os requisitos não funcionais são critérios que definem qualidades ou características específicas do sistema, além de suas funcionalidades básicas. Eles se concentram em aspectos como desempenho, segurança, usabilidade, confiabilidade e outros atributos que afetam a experiência do usuário e a eficácia do sistema como um todo. Exemplos de requisitos não funcionais incluem tempo de resposta, escalabilidade, requisitos de segurança, disponibilidade e capacidade de manutenção.
+
+### RNF - Requisitos Não Funcionais
+
+Algumas fontes usam a sigla "RNF" para se referir aos Requisitos Não Funcionais, como mencionado acima. No entanto, em alguns contextos, "RNF" também pode se referir a "Requisitos de Nível de Serviço" ou "Requisitos de Nível de Qualidade". Esses requisitos estabelecem padrões específicos que o sistema deve atender em relação a aspectos não funcionais, como desempenho, confiabilidade e usabilidade.
+
 ### O que é um Query Builder?
 
 Um Query Builder, em termos gerais, é uma ferramenta ou biblioteca de software que permite construir consultas a bancos de dados de forma programática e mais intuitiva, em vez de escrever as consultas manualmente em linguagem SQL (Structured Query Language). Essa abordagem é especialmente útil quando se trabalha com consultas complexas ou dinâmicas, pois pode simplificar o processo de construção e modificação das consultas.
