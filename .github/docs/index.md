@@ -1,4 +1,4 @@
-# Anotações Importantes
+# `Index`
 
 ## Recomendações de configurações do arquivo `tsconfig`
 
