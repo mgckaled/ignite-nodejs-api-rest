@@ -1,5 +1,11 @@
 # `index`
 
+> Anotações importantes com dicas, conceitos e ensinamentos [AQUI](./notes.md).
+>
+> Perguntas e Respostas dos [Quizzes](./quizzes.md).
+
+## Análise de código por arquivo
+
 - [`knexfile.ts`](./code/knexfile.md)
 - [`db/migratons/create-documents.ts`](./code/db/create-documents.md)
 - [`db/migratons/add-session-id-to-transactions.ts`](./code/db/add-session-id-to-transactions.md)

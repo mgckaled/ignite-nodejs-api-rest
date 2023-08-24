@@ -1,5 +1,7 @@
 # Anotações
 
+> Voltar para o [`index`](./index.md)
+
 ## Dicas
 
 - `"knex": "node --loader tsx ./node_modules/knex/bin/cli.js"` - é o comando recomendado dentro de `package.json` para rodar o knex no windows
@@ -61,6 +63,32 @@ Em linguagens de programação, frameworks e bibliotecas, geralmente existem fun
 
 Lembre-se de que enquanto os UUIDs são altamente improváveis de colidir, eles ainda são finitos, e a geração excessiva de UUIDs em curtos períodos de tempo pode teoricamente levar a colisões. No entanto, para a maioria dos casos práticos, a probabilidade de colisão é extremamente baixa e, portanto, os UUIDs são considerados seguros para identificação exclusiva.
 
+### O que são variáveis de ambiente?
+
+Variáveis de ambiente são valores dinâmicos que podem afetar o comportamento e as configurações de um sistema operacional ou de um programa. Elas são utilizadas para armazenar informações importantes que podem ser referenciadas por diferentes processos ou programas em um sistema.
+
+Essas variáveis contêm informações sobre o ambiente no qual um programa é executado, e podem influenciar como o programa se comporta, onde ele busca por arquivos, como exibe informações, entre outras coisas. As variáveis de ambiente são especialmente úteis para definir configurações globais que se aplicam a vários processos ou programas sem a necessidade de modificar cada um individualmente.
+
+Algumas variáveis de ambiente são predefinidas pelo sistema operacional, enquanto outras podem ser definidas pelo usuário ou por scripts de inicialização. Aqui estão alguns exemplos de variáveis de ambiente e suas possíveis utilizações:
+
+1. **PATH**: Essa variável especifica os diretórios nos quais o sistema operacional deve procurar por executáveis quando você digita um comando no terminal. Isso permite que você execute programas sem precisar especificar o caminho completo até o executável.
+
+2. **HOME**: Normalmente aponta para o diretório pessoal do usuário, onde seus arquivos pessoais estão localizados.
+
+3. **LANG** ou **LC_ALL**: Controlam a configuração regional e de idioma do sistema, afetando a exibição de textos, formatos de data, números, etc.
+
+4. **TMP** ou **TEMP**: Indicam o diretório onde os programas podem armazenar arquivos temporários.
+
+5. **USERNAME** (no Windows) ou **USER** (em sistemas Unix-like): Armazena o nome do usuário atualmente logado no sistema.
+
+6. **JAVA_HOME**: Indica o diretório onde o Java Development Kit (JDK) está instalado, permitindo que programas encontrem facilmente o ambiente de desenvolvimento Java.
+
+7. **DATABASE_URL**: É frequentemente usada em aplicativos web para armazenar a URL de conexão com um banco de dados.
+
+8. **AWS_ACCESS_KEY_ID** e **AWS_SECRET_ACCESS_KEY**: Usadas para autenticar e autorizar acessos à Amazon Web Services (AWS).
+
+As variáveis de ambiente podem ser acessadas por programas e scripts, permitindo que eles adaptem seu comportamento de acordo com as configurações definidas no ambiente. Como mencionado anteriormente, as variáveis de ambiente são uma maneira eficaz de configurar aspectos globais do sistema operacional ou de programas, facilitando a personalização e a configuração de diferentes processos.
+
 ## Liçoes
 
 ### Knex
@@ -96,3 +124,5 @@ Desejar um mapeamento automático entre objetos e tabelas do banco de dados.
 Quiser uma abstração de banco de dados mais elevada, lidando com objetos em vez de consultas SQL.
 Pretender aumentar a produtividade, permitindo que o ORM cuide de tarefas como geração de SQL, controle de transações e gerenciamento do ciclo de vida dos objetos.
 Quanto à sua pergunta sobre utilizar um ORM ao invés do Knex, isso é perfeitamente possível. Mas recomendamos que siga conforme está na aulas até terminar o módulo e ai, sim, implementar mudanças e melhorias. Dessa forma você tiraria mais proveito do que está sendo passado nas aulas e caso enfrente alguma dificuldade seria mais fácil conseguir ajuda aqui no fórum, entende? E no módulo seguinte nós utilizaremos o ORM Prisma!
+
+> Voltar para o [`index`](./index.md)
