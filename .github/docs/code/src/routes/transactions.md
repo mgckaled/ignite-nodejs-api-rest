@@ -12,5 +12,6 @@ Funciona como um plugin e especifica e separa as requisições em rotas
 - `const { title, amount, type } = createTransactionBodySchema.parse(request.body)` - cruzamento dos dados com o schema definido. Caso não haja correspondencia em todos, o `zod` irá enviar uma mensagem de erro.
 - `amount: type === 'credit' ? amount : amount * -1,` - multiplicação por -1 nos tipos 'debit'.
 - `return reply.status(201).send()` - envio de resposta vazia. É possivel adicionar mensagens
+- `where('id', id).first()` - espera-se que haja apenas um resultado.
 
 > Voltar para o [`index`](../../../index.md)
