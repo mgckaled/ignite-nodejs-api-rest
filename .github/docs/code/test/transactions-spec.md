@@ -4,6 +4,11 @@
 
 Arquivos com os testes dos requisitos funcionais do aplicativo de registro de transações.
 
+## Testes
+
+- `should be able to create a new transaction`
+- `should be able to list all transactions`
+
 ## Anotações Relevantes
 
 - `beforeAll` -  É uma função que é executada uma única vez antes de todos os testes. É útil para inicializar recursos compartilhados que serão utilizados pelos testes (plugins). `beforeAll(async () => {await app.ready()})`
