@@ -123,6 +123,24 @@ Os cookies também podem ser classificados em diferentes categorias com base em 
 
 É importante notar que nem todos os cookies são maliciosos, mas também há preocupações com a privacidade e a segurança relacionadas ao rastreamento excessivo e ao compartilhamento não autorizado de dados. Portanto, muitos navegadores oferecem configurações que permitem aos usuários controlar quais cookies desejam permitir e bloquear.
 
+### O que são testes autimatizados?
+
+Testes automatizados são um conjunto de técnicas e práticas na área de desenvolvimento de software que envolvem a criação e execução de testes de forma automatizada, ou seja, sem a necessidade de intervenção manual constante. O objetivo principal dos testes automatizados é verificar se um software funciona corretamente, identificando erros, defeitos e problemas de desempenho de maneira eficiente e confiável.
+
+Existem diferentes tipos de testes automatizados, incluindo:
+
+1. **Testes Unitários:** Esses testes focam em partes individuais do código, como funções ou métodos. Eles verificam se as unidades isoladas de código funcionam corretamente e produzem os resultados esperados. Frameworks populares para testes unitários incluem JUnit, NUnit, pytest e muitos outros.
+
+2. **Testes de Integração:** Esses testes verificam a interação entre diferentes partes do software, como módulos, componentes ou sistemas completos. O objetivo é garantir que essas partes funcionem bem juntas e se comuniquem corretamente.
+
+3. **Testes de Aceitação/Automatizados de Regressão:** Esses testes garantem que as funcionalidades principais do software continuem a funcionar conforme as alterações são feitas no código. Eles são especialmente úteis para evitar regressões, ou seja, problemas que surgem quando novas alterações afetam negativamente partes previamente funcionais do software.
+
+4. **Testes de Interface de Usuário:** Esses testes automatizados verificam a interface com a qual os usuários interagem diretamente. Eles podem simular cliques, inserções de dados e outras ações do usuário para garantir que a interface funcione corretamente e exiba os resultados esperados.
+
+5. **Testes de Desempenho:** Esses testes avaliam o desempenho e a escalabilidade do software, identificando possíveis gargalos e problemas de velocidade ou consumo de recursos em situações de carga.
+
+Os benefícios dos testes automatizados incluem a detecção precoce de problemas, a redução da necessidade de testes manuais repetitivos, a melhoria da qualidade do software e a agilização do processo de desenvolvimento. No entanto, é importante ressaltar que os testes automatizados não substituem completamente os testes manuais, especialmente quando se trata de avaliar aspectos subjetivos da usabilidade e da experiência do usuário. Geralmente, uma abordagem equilibrada de testes manuais e automatizados é a mais eficaz para garantir a qualidade do software.
+
 ## Liçoes
 
 ### Knex

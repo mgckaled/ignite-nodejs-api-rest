@@ -44,6 +44,26 @@
 
 ## Quiz - Implementando as rotas
 
+1 - O que são requisitos funcionais? **Resposta**: Características do sistema que devem ser atendidas para atingir seus objetivos
+
+2 - No Fastify, como configuramos rotas com um path em comum? **Resposta**: Utilizando o método `register` para registrar um plugin que contém todas as rotas com o mesmo path
+
+3 - Para que serve o termo `declare module` no TypeScript? **Resposta**: Para declarar módulos personalizados
+
+4 - Como você pode criar tipos personalizados para representar suas tabelas e colunas no TypeScript? **Resposta**: Escrevendo manualmente as definições de tipos
+
+5 - Como podemos acessar os cookies enviados por um cliente no Fastify? **Resposta**: `request.cookies`
+
+6 - Seguindo as aulas, como podemos definir um cookie no Fastify? **Resposta**: `reply.cookie`
+
+7 - É possível configurar opções para os Cookies, como o tempo de expiração, ao escrever um cookie no Fastify? **Resposta**: Sim, passando um objeto com as opções como terceiro parâmetro da função
+
+8 - O que é o `preHandler` no Fastify? **Resposta**: Uma função que é executada antes de uma rota
+
+9 - Os contextos dentro de um plugin no Fastify são isolados entre eles. **Resposta**: Verdadeiro
+
+10 - O que são Hooks no contexto do Fastify? **Resposta**: Funções que são executadas de acordo ao hook configurado.
+
 ## Quiz - Testes automatizados
 
 > Voltar para o [`index`](./index.md)
