@@ -13,5 +13,6 @@ Funciona como um plugin e especifica e separa as requisições em rotas
 - `amount: type === 'credit' ? amount : amount * -1,` - multiplicação por -1 nos tipos 'debit'.
 - `return reply.status(201).send()` - envio de resposta vazia. É possivel adicionar mensagens
 - `where('id', id).first()` - espera-se que haja apenas um resultado.
+- `const summary = await knex('transactions').sum('amount', { as: 'amount' }).first()` - rota que retorna a soma das transações, considerando o resultado dos débitos e créditos. É basicamente a soma de todas as colunas. O `as:` serve para formatar o resultado da consulta em json.
 
 > Voltar para o [`index`](../../../index.md)
