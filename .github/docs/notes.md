@@ -141,6 +141,32 @@ Existem diferentes tipos de testes automatizados, incluindo:
 
 Os benefícios dos testes automatizados incluem a detecção precoce de problemas, a redução da necessidade de testes manuais repetitivos, a melhoria da qualidade do software e a agilização do processo de desenvolvimento. No entanto, é importante ressaltar que os testes automatizados não substituem completamente os testes manuais, especialmente quando se trata de avaliar aspectos subjetivos da usabilidade e da experiência do usuário. Geralmente, uma abordagem equilibrada de testes manuais e automatizados é a mais eficaz para garantir a qualidade do software.
 
+### Vitest
+
+Vitest é uma biblioteca de testes simples construída em cima do Vite. É nativo do Vite, o que simplifica muito a parte de configuração. Ele evita que você use o Babel ou configurações específicas ao usar outras bibliotecas de teste⁵. Vitest reutiliza a configuração, transformadores, resolvedores e plugins do Vite - consistente em todo o seu aplicativo e testes⁶.
+
+Vitest é uma ferramenta de teste de unidade extremamente rápida alimentada pelo Vite. Ele é executado em um ambiente Node.js e usa JSDOM para simular um ambiente de navegador. Isso permite que você teste seus componentes React e outras partes do seu aplicativo em um ambiente semelhante ao navegador sem a necessidade de iniciar um navegador real.
+
+Vitest também suporta testes em paralelo, o que pode acelerar significativamente o tempo de execução dos testes. Além disso, ele tem suporte integrado para TypeScript e suporta muitos recursos modernos do JavaScript, como módulos ES e importações dinâmicas.
+
+Em resumo, Vitest funciona fornecendo um ambiente de teste rápido e fácil de configurar para seus aplicativos construídos com Vite. Ele permite que você teste seus componentes e outras partes do seu aplicativo em um ambiente semelhante ao navegador sem a necessidade de iniciar um navegador real. Além disso, ele tem muitos recursos avançados e é altamente configurável para atender às suas necessidades de teste.
+
+Origem: conversa com o Bing, 25/08/2023
+
+(1) Testes em aplicações React com VITE + VITEST - DEV Community. <https://dev.to/dnokaneda/testes-em-aplicacoes-react-com-vite-vitest-386l>.
+
+(2) Vitest | A blazing fast unit test framework powered by Vite. <https://vitest.dev/>.
+
+(3) Como funciona o Bet365? Guia completo com dicas sobre o site de aposta online. <https://www.techtudo.com.br/noticias/2022/05/como-funciona-o-bet365-guia-completo-com-dicas-sobre-o-site-de-aposta-online.ghtml>.
+
+(4) Como funciona o IQ Option? Saiba o que é e como usar a plataforma. <https://www.techtudo.com.br/listas/2020/01/como-funciona-o-iq-option-saiba-o-que-e-e-como-usar-a-plataforma.ghtml>.
+
+(5) Como funciona cashback do Banco Inter? Saiba receber dinheiro de volta. <https://www.techtudo.com.br/listas/2020/12/como-funciona-cashback-do-banco-inter-saiba-receber-dinheiro-de-volta.ghtml>.
+
+(6) Vitest: Nova Ferramenta para Testes Unitários! Como ... - YouTube. <https://www.youtube.com/watch?v=n94wJZr6y5M>.
+
+(7) undefined. <https://github.com/dnokaneda/vitest-examples>.
+
 ## Liçoes
 
 ### Knex
