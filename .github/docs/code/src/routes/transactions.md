@@ -17,5 +17,6 @@ Funciona como um plugin e especifica e separa as requisições em rotas
 - `let sessionId = request.cookies.sessionId` - busca dentro dos cookies da requisoção (metadados) do `sessionId`
 - `maxAge: 1000 * 60 * 60 * 24 * 7,` - em milisegundos = 7 dias
 - os cookies são enviados automaticamente em todas as requisições, anotando informações de contexto dos das sessões dos usuários.
+- `preHandler: [checkSessionIdExists]` - verifica as condições do middleware (verificação de existência de sessão) antes de executar requisições nas rotas.
 
 > Voltar para o [`index`](../../../index.md)
