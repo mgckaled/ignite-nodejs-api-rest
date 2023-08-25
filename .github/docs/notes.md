@@ -151,8 +151,6 @@ Vitest também suporta testes em paralelo, o que pode acelerar significativament
 
 Em resumo, Vitest funciona fornecendo um ambiente de teste rápido e fácil de configurar para seus aplicativos construídos com Vite. Ele permite que você teste seus componentes e outras partes do seu aplicativo em um ambiente semelhante ao navegador sem a necessidade de iniciar um navegador real. Além disso, ele tem muitos recursos avançados e é altamente configurável para atender às suas necessidades de teste.
 
-Origem: conversa com o Bing, 25/08/2023
-
 (1) Testes em aplicações React com VITE + VITEST - DEV Community. <https://dev.to/dnokaneda/testes-em-aplicacoes-react-com-vite-vitest-386l>.
 
 (2) Vitest | A blazing fast unit test framework powered by Vite. <https://vitest.dev/>.
@@ -166,6 +164,22 @@ Origem: conversa com o Bing, 25/08/2023
 (6) Vitest: Nova Ferramenta para Testes Unitários! Como ... - YouTube. <https://www.youtube.com/watch?v=n94wJZr6y5M>.
 
 (7) undefined. <https://github.com/dnokaneda/vitest-examples>.
+
+### Supertest
+
+Supertest é uma biblioteca Node.js que ajuda os desenvolvedores a testar APIs. Ele estende outra biblioteca chamada superagent, um cliente HTTP JavaScript para Node.js e o navegador. Os desenvolvedores podem usar o Supertest como uma biblioteca independente ou com frameworks de teste JavaScript como Mocha ou Jest³.
+
+Supertest é uma abstração de alto nível para testar HTTP, enquanto ainda permite que você acesse a API de baixo nível fornecida pelo superagent. Isso torna fácil fazer afirmações sobre as respostas HTTP e testar suas APIs de maneira eficiente¹.
+
+Além disso, Supertest pode ser usado com qualquer framework de teste e é fácil de configurar. Ele também suporta muitos recursos avançados, como autenticação e configuração de cabeçalhos HTTP personalizados. Isso torna o Supertest uma ferramenta poderosa e flexível para testar suas APIs.
+
+Em resumo, as vantagens do Supertest incluem sua facilidade de uso, flexibilidade e capacidade de fazer afirmações sobre respostas HTTP de maneira eficiente. Ele é uma ferramenta valiosa para qualquer desenvolvedor que queira testar suas APIs de maneira profissional. Há algo mais que você gostaria de saber? 😊
+
+(1) Supertest: How to Test APIs Like a Pro - Testim Blog. <https://www.testim.io/blog/supertest-how-to-test-apis-like-a-pro/>.
+
+(2) supertest - npm. <https://www.npmjs.com/package/supertest>.
+
+(3) Escrevendo testes com Jest + supertest - DEV Community. <https://dev.to/vitordelfino/escrevendo-testes-com-jest-supertest-1ed>.
 
 ## Liçoes
 
