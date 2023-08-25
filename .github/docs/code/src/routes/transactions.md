@@ -14,5 +14,8 @@ Funciona como um plugin e especifica e separa as requisições em rotas
 - `return reply.status(201).send()` - envio de resposta vazia. É possivel adicionar mensagens
 - `where('id', id).first()` - espera-se que haja apenas um resultado.
 - `const summary = await knex('transactions').sum('amount', { as: 'amount' }).first()` - rota que retorna a soma das transações, considerando o resultado dos débitos e créditos. É basicamente a soma de todas as colunas. O `as:` serve para formatar o resultado da consulta em json.
+- `let sessionId = request.cookies.sessionId` - busca dentro dos cookies da requisoção (metadados) do `sessionId`
+- `maxAge: 1000 * 60 * 60 * 24 * 7,` - em milisegundos = 7 dias
+- os cookies são enviados automaticamente em todas as requisições, anotando informações de contexto dos das sessões dos usuários.
 
 > Voltar para o [`index`](../../../index.md)

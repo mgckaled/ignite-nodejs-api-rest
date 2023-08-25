@@ -101,6 +101,28 @@ Algumas variáveis de ambiente são predefinidas pelo sistema operacional, enqua
 
 As variáveis de ambiente podem ser acessadas por programas e scripts, permitindo que eles adaptem seu comportamento de acordo com as configurações definidas no ambiente. Como mencionado anteriormente, as variáveis de ambiente são uma maneira eficaz de configurar aspectos globais do sistema operacional ou de programas, facilitando a personalização e a configuração de diferentes processos.
 
+### O que são cookies?
+
+Cookies são pequenos arquivos de texto que os sites armazenam no seu dispositivo (como computador, tablet ou smartphone) quando você os visita. Eles desempenham um papel importante na experiência de navegação na internet, permitindo que os sites lembrem informações sobre suas preferências e atividades anteriores.
+
+Os cookies podem conter várias informações, como dados de login, preferências de idioma, itens no carrinho de compras, histórico de navegação e outras informações relevantes para melhorar a sua interação com um determinado site. Existem dois tipos principais de cookies:
+
+1. **Cookies de sessão:** Estes são temporários e são excluídos automaticamente assim que você fecha o navegador. Eles são usados para manter o controle de suas ações durante uma única sessão de navegação. Por exemplo, eles podem ser usados para manter você logado em uma conta enquanto navega pelo site.
+
+2. **Cookies persistentes:** Esses cookies permanecem no seu dispositivo mesmo depois de fechar o navegador. Eles têm uma data de validade definida e são usados para lembrar suas preferências e informações entre sessões. Por exemplo, um site de comércio eletrônico pode usar um cookie persistente para lembrar os itens que você adicionou ao carrinho de compras, mesmo que você feche o navegador e volte mais tarde.
+
+Os cookies também podem ser classificados em diferentes categorias com base em suas finalidades:
+
+- **Cookies essenciais:** São necessários para o funcionamento básico do site e permitem que você navegue e use suas funções. Eles geralmente incluem coisas como cookies de autenticação e segurança.
+
+- **Cookies de desempenho:** Coletam informações sobre como os visitantes usam um site, como as páginas mais visitadas e se os usuários encontram mensagens de erro. Isso ajuda os proprietários de sites a entenderem melhor o desempenho de seus sites e a otimizá-los.
+
+- **Cookies de funcionalidade:** Permitem que um site lembre das escolhas que você faz (como seu nome de usuário, idioma ou região) e forneça recursos aprimorados e mais personalizados.
+
+- **Cookies de publicidade e rastreamento:** São usados para mostrar anúncios direcionados aos usuários, com base em seus interesses e atividades de navegação. Eles também podem ser usados por terceiros para rastrear a sua atividade na internet.
+
+É importante notar que nem todos os cookies são maliciosos, mas também há preocupações com a privacidade e a segurança relacionadas ao rastreamento excessivo e ao compartilhamento não autorizado de dados. Portanto, muitos navegadores oferecem configurações que permitem aos usuários controlar quais cookies desejam permitir e bloquear.
+
 ## Liçoes
 
 ### Knex
