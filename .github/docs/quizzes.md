@@ -66,4 +66,30 @@
 
 ## Quiz - Testes automatizados
 
+1 - O que é a pirâmide de testes? **Resposta**: Uma representação gráfica das quantidades de diferentes tipos de testes na aplicação
+
+2 - Qual é a finalidade dos testes unitários? **Resposta**: Testar uma pequena unidade de código de forma isolada
+
+3 - Qual é a finalidade dos testes de integração? **Resposta**: Testar a integração entre diferentes módulos da aplicação
+
+4 - Qual é a finalidade dos testes e2e (end-to-end)? **Resposta**: Testar o sistema completo de uma só vez, simulando a interação do usuário
+
+5 - Qual método é executado uma única vez antes de todos os testes em um bloco de teste? **Resposta**: `beforeAll`
+
+6 - Qual método é executado antes de cada teste em um bloco de teste? **Resposta**: `beforeEach`
+
+7 - Qual método é executado depois de todos os testes em um bloco de teste? **Resposta**: `afterAll`
+
+8 - Qual método é executado depois de cada teste em um bloco de teste? **Resposta**: `afterEach`
+
+9 - Qual método é utilizado para preparar o ambiente antes de todos os testes? **Resposta**: `beforeAll`
+
+10 - Qual é o objetivo do supertest no contexto de testes e2e? **Resposta**: Realizar requisições HTTP para uma aplicação e validar suas respostas
+
+11 - É possível fazer verificações no corpo da resposta de uma requisição HTTP feita com o supertest? **Resposta**: Sim, usando o método `.expect()`
+
+12 - Como você pode enviar dados em uma requisição HTTP feita com o supertest? **Resposta**: Usando o método `.send()`
+
+13 - Qual a função principal do "describe" em testes automatizados? **Resposta**: Criar uma categoria de testes para que eles sejam agrupados
+
 > Voltar para o [`index`](./index.md)
