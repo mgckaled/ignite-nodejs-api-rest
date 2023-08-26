@@ -4,6 +4,9 @@
   "description": "Repositório do segundo projeto da Trilha Node.js 2022 da RocketSeat",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "time": "time tsx src/server.ts",
@@ -20,6 +23,7 @@
     "@types/node": "^20.5.4",
     "@types/supertest": "^2.0.12",
     "eslint": "^8.47.0",
+    "sqlite3": "^5.1.6",
     "supertest": "^6.3.3",
     "ts-node": "^10.9.1",
     "tsup": "^7.2.0",
@@ -32,7 +36,8 @@
     "dotenv": "^16.3.1",
     "fastify": "^4.21.0",
     "knex": "^2.5.1",
-    "sqlite3": "^5.1.6",
+    "pg": "^8.11.3",
     "zod": "^3.22.2"
   }
 }
+
