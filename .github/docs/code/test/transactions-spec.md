@@ -17,5 +17,6 @@ Arquivos com os testes dos requisitos funcionais do aplicativo de registro de tr
 - `afterEach` - É uma função que é executada após cada teste. É útil para limpar o ambiente depois da execução de cada teste, por exemplo, limpar variáveis ou fechar conexões com o banco de dados.
 - `app.server` - servidor do Node (HTTP server) como parâmetro
 - `expect(201)` - valida o código. equivale a `expect(response.statusCode).toEqual(201)`
+- `execSync` - executa qualquer comando dentro da aplicação node
 
 > Voltar para o [`index`](../../index.md)
