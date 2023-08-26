@@ -8,6 +8,8 @@ Arquivos com os testes dos requisitos funcionais do aplicativo de registro de tr
 
 - `should be able to create a new transaction`
 - `should be able to list all transactions`
+- `should be able to get a specific transaction`
+- `should be able to get the summary`
 
 ## Anotações Relevantes
 
